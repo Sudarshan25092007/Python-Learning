@@ -35,3 +35,8 @@ for _ in range(3):  # _ ignores value
         print("Invalid—skip")
 if count > 0:
     print(f"Avg: {total_days / count}")
+
+name="Sudarshan patil h j"
+myname=name.strip()
+for letter in myname:
+    print(letter,end="-")
